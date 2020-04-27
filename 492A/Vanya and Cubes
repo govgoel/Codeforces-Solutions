@@ -1,1 +1,13 @@
+#include<iostream>
 
+using namespace std;
+int main(){
+int c=0,i=0,l=0,a;
+cin>>a;
+while(c<=a){
+	i+=1;
+	l+=i;
+	c=c+l;
+}
+cout<< i-1;
+}
